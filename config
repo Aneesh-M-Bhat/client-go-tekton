@@ -1,0 +1,1132 @@
+apiVersion: v1
+clusters:
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-6k2cf82-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-82bf5gt-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-9jhg6kt-72292.gcp-2.ci.openshift.org:6443
+  name: api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-9pzj2v2-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-9qgiwsb-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-fh5czyb-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-fmmvtlk-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-fmqxpw2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-ft7xjt2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-j4j68z2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-jpwh5kk-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-kb763mk-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-l5clm5b-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-lvcq0m2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-ql5gprb-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-sfi13qt-76ef8.aws-2.ci.openshift.org:6443
+  name: api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-sy1ntct-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-wx4wgsb-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-xm5qndb-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.hive4.psi.ospqa.com:6443
+  name: api-hive4-psi-ospqa-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ve4140513914.psi.ospqa.com:6443
+  name: api-ve4140513914-psi-ospqa-com:6443
+- cluster:
+    certificate-authority: /home/anebhat/.minikube/ca.crt
+    extensions:
+    - extension:
+        last-update: Thu, 23 May 2024 11:31:34 IST
+        provider: minikube.sigs.k8s.io
+        version: v1.30.1
+      name: cluster_info
+    server: https://192.168.49.2:8443
+  name: minikube
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJRnhDVDhmRStnMmt3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBMk1qUXdPVFE1TkRKYUZ3MHpOREEyTWpJd09UVTBOREphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsZnMzRUU5YUs0NXNiVG8xb1lWeFhtWVFHNnhsM3JBTU1xYS9zbGo3bXNLaTZLRWRkN05uWlZtZmgKZTJnS0dOYm9OOENWOCtPTmZQVEUwQVF3aUREcHVZcmwyZUU2Q0djUVdoOHJJVUorTStqcSs5eXNlMDdocjhlOApCVlpJTWdkSHhyK1Mxclo1ZGlQcUpDTHNZK2RBYzFrRzBESDFyeHYyMzczc3B0VGdzTlF6VzMzMVVhYUVidyt4CjUyVkVXRFZTQVVURHRRRDlQQmNKU01SdFlITG1iUUpqOW01WWErS1RueG05dHNDSytZczlpVy82Z0pvYTMwRHYKUWw3V0MzeWlXU1FqZThNOXpSbTNKWGlEc2hPaU04d1NhRGZERm0rZTlVdi9WSVZIM1FKY1JxQ3h6MzVxZ1IxeQpxVzdCZWx4Z2ZYNGVKNno5aGNxa2VlQVZid2R2QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUR09rUUtZZTdnUjJHMi9ESkZiNXFXbGg0Zk1qQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQTVZbGI3M0pxeQpjZlJselhGam1BTXJMVTNkZkNiVHVDMUZpUnFNVllDcGZkSFd2Qk50QXdla2pZbm1xdkRhY05wbnJnRWRMTUJpCkNFS0V1MHNnVmdyUmowandhaFZuMmt1SEExUi8vcHNYQmwzeitTREU0dlJwN3ZNeVNwU0hkQUNVOUdnSFF0RC8KME50UWNzMmtNaVIyOGhhcmxOckgyRTRDVndjT0lGU0thdFdYWDNlT2sxaElYWlRWRitOdW9rd0NvVkViMUJGawpaNGh1elVKbVZFOUJoZXBsSGkvRmdUNzZla2U3R29Gb2szbC83ZlI3LzV5dHJmK2lXUmI5dFFocDdDeXd0WG5JCmsrdnhYOEZzaTc0cVN0QUlsQ3RzOEtHdkNWWkNkcStsN1kzd2ljOUFJcExDS3dMZkk4RThNQzRFWnBYN3d1em4KVDJiNEtPajcvbmFLCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://127.0.0.1:46193
+  name: kind-kind
+contexts:
+- context:
+    cluster: api-hive4-psi-ospqa-com:6443
+    user: user1/api-hive4-psi-ospqa-com:6443
+  name: /api-hive4-psi-ospqa-com:6443/user1
+- context:
+    cluster: api-ve4140513914-psi-ospqa-com:6443
+    user: user/api-ve4140513914-psi-ospqa-com:6443
+  name: /api-ve4140513914-psi-ospqa-com:6443/user
+- context:
+    cluster: api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+  name: default/api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443/kube:admin
+- context:
+    cluster: api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+  name: default/api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-hive4-psi-ospqa-com:6443
+    namespace: default
+    user: kube:admin/api-hive4-psi-ospqa-com:6443
+  name: default/api-hive4-psi-ospqa-com:6443/kube:admin
+- context:
+    cluster: api-ve4140513914-psi-ospqa-com:6443
+    namespace: default
+    user: kube:admin/api-ve4140513914-psi-ospqa-com:6443
+  name: default/api-ve4140513914-psi-ospqa-com:6443/kube:admin
+- context:
+    cluster: minikube
+    user: minikube
+  name: minikube
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-2j6lx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-2j6lx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-2l2s4
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-2l2s4/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-44mh7
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-44mh7/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-48p8t
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-48p8t/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-4kvvf
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-4kvvf/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-55cbd
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-55cbd/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5cgz5
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5cgz5/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5h4mz
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5h4mz/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5jltc
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5jltc/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5k6b6
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5k6b6/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-62l4p
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-62l4p/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-6h9mg
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-6h9mg/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-6jf2s
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-6jf2s/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-78g29
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-78g29/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-98zkz
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-98zkz/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-997r5
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-997r5/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-b6g9r
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-b6g9r/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-b8v4h
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-b8v4h/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-bjnsf
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-bjnsf/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-bkbmg
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-bkbmg/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-blwfv
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-blwfv/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-cdkgt
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-cdkgt/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-cfx5s
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-cfx5s/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-dc4kr
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-dc4kr/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-dr74m
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-dr74m/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-ds8nw
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-ds8nw/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-fhsd6
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-fhsd6/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-gxnkj
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-gxnkj/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-hjxhj
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-hjxhj/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-hmjcc
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-hmjcc/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-hpzw8
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-hpzw8/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-j5wwm
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-j5wwm/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-lc7sx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-lc7sx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-lc8r4
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-lc8r4/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-lpv2z
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-lpv2z/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-mncvp
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-mncvp/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-qcxtg
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-qcxtg/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rj5wj
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rj5wj/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rphjz
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rphjz/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rrvp2
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rrvp2/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rtgdd
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rtgdd/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-smbjd
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-smbjd/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-sndtw
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-sndtw/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-st9dm
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-st9dm/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-t7qz7
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-t7qz7/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-t8pgx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-t8pgx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-thzh2
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-thzh2/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-tnzx2
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-tnzx2/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-w7f5p
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-w7f5p/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wcmlv
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wcmlv/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wqqxx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wqqxx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wtqj6
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wtqj6/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wxcrb
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wxcrb/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: kind-kind
+    user: kind-kind
+  name: kind-kind
+current-context: kind-kind
+kind: Config
+preferences: {}
+users:
+- name: kube:admin/api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~__ovpnXwPQokUhXfW7Z-6tPakPOmdeN4Nv009K3dcMg
+- name: kube:admin/api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~kaMVor8YUSJH8ikKgB8_XdmtpgQ1RRB-BLlscoV4NHs
+- name: kube:admin/api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+  user:
+    token: sha256~mZ5VsUnzjmuqjMYN46BiFlk84Bqxsj4DpXxbadB5rm4
+- name: kube:admin/api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user:
+    token: sha256~XV7uf9qG_UH2Y80DiaSZLBxh0W1Lmg_Vr74ZoEz234s
+- name: kube:admin/api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user:
+    token: sha256~8qXTxv-PoLWk_ZfNAuQ0jEPwUTfUt_2AHeHgOVeqRSc
+- name: kube:admin/api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user: {}
+- name: kube:admin/api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~8hC3_rUvCyRW3YpwJFztTnIgj-oxojg0LWlz9dPx9QI
+- name: kube:admin/api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~ptXdec-jr9jPB9vxOrt_2ZJGp2d1oS8SgUaMMe4wpsQ
+- name: kube:admin/api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~EMCTAGMew2rMm71VY5Ef3EnrlxonMatK_eOo5RtXOUw
+- name: kube:admin/api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~0fZpFN3YxXe1VcnELArJiqZhiy4R1F1O-M7wBL8I1DM
+- name: kube:admin/api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user:
+    token: sha256~Ukac8w9AGJrmfDmtL0Nz83jD9wnYnTKTOb1-EDDlUWc
+- name: kube:admin/api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~6p3O3BjONmp40hs_ilLq_XVVGtqe_xpKGKDFeGuK9cc
+- name: kube:admin/api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user: {}
+- name: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~fpE1M7rbA14W8PfRyPgb2DmLsfiprwOjvGcedR94tzQ
+- name: kube:admin/api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~0LpaDU2IAIrS61ZeK5H-yKro0KePK6myaX2IwxdxbjY
+- name: kube:admin/api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+  user:
+    token: sha256~bOHC67RBHipw6bruCw8yFK5iiZBE5r4nvxAlvqP-oB0
+- name: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~6R5Daf2VU80rh4xiSxCjAgZf0ezeOxkH3XIgkmIBcyo
+- name: kube:admin/api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~fhxwl2gh6DfTbwkr3fY-iYwg0uj2kFv1Ra0_i5MSKFM
+- name: kube:admin/api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~LRv_AyJzTlWXXUkJwO0HXyHW04h4nnPOSu8trg9IBWw
+- name: kube:admin/api-hive4-psi-ospqa-com:6443
+  user:
+    token: sha256~KJ2svWx74i8LsB3nSddiZ5svuh5s9W_z8FXqtasUCBE
+- name: kube:admin/api-ve4140513914-psi-ospqa-com:6443
+  user:
+    token: sha256~EPtCeK0uxXEIBKMHufI0OiKhlNfr0Ni4yE2HfHRoIF0
+- name: minikube
+  user:
+    client-certificate: /home/anebhat/.minikube/profiles/minikube/client.crt
+    client-key: /home/anebhat/.minikube/profiles/minikube/client.key
+- name: user/api-ve4140513914-psi-ospqa-com:6443
+  user:
+    token: sha256~gyZ-zrP8ccEQzOZM1jkqpBBS4QXQE8A0pev9X-ujRr0
+- name: user1/api-hive4-psi-ospqa-com:6443
+  user:
+    token: sha256~t97eTgPVZr9zdr9s62nKGRZJhw9FnRRPw8QpF8fXiZI
+- name: kind-kind
+  user:
+    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJR25PMDBnb2QyZFF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBMk1qUXdPVFE1TkRKYUZ3MHlOVEEyTWpRd09UVTBORFJhTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEcVpoL0YKdzhZYzdXSTJpbTh5MG1NaUpxNTlaWllUY2JBbGhEcVdzZ1oxdU4xcW52QkxsTUFzeml6dmp2Q1FPaHhSYlhuSgprK2hzUzZMRWdGVUR3bHltdlZEZkJBdTEvdC9zNkh2SWtGM2d3dysxbllPZ1RUWkNZWnhNNkkzaTRNSC9vUlY2CnJwQlhiSS9KUVlBdmIyQWJXeWdHK2RUVWs5RU9WSnQvRW0rVEs1SnFwVHdsa1lIZHE0SDY4a3dLUTBZTVB2L28KZ1owU1VMcDduL2luV0R6cWFJeFNxTERZMExKcHNkQ3VWZUVOdXk0MzJqKzlROGhGRWd4QU56V2lOclhLT2l6OQp1aStTbkRLc0wvUUF3UE1IY2ltUnNaaDVCSm1rSTJPazZESE1FZWJJQTZGSTZwWE5pMmVtMEs4bjNPSlROelFZCndEUHFrM2NLUS8zaTZDSEhBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRk1ZNlJBcGg3dUJIWWJiOApNa1Z2bXBhV0hoOHlNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUNZNFVNSUw2TGNkNkFiYS9LNUpaNU9ML2NoCnBQcy8rNUh3SHh2VzRTQ0hrWTU3UEkyR2wxajIxZFpLNVJoTSsrbmJMMG1mV3NlQzJNQUhIazF2V1hPWDZadU0KYXBvdklCNDhwYkxXMnFTYysvNTdPWXhEU1VWZ0FXMmI0N3cvR0dKa0s3cjdDTUpmeXF5eURxWjZjNmlGc0hjSAowQUgrRHZwd2hCY2JNSFlEbFE3S1hqeVZFMmNwV1VWTm5QbW9WanpHejZHdURYSzFTY1lrSVFzaklwcXlrSm5DClk4KzBwM1FCcHNFU0FiYk54S3ZPdVdVbXNPK3pHM0hGOCtLWXZ5T1JhUUphemYxTU03QzYwVVBQSUpDUEJYTTUKSzdQcjJpVytlNjVYa0V2U2lVcThYSEU0ZkwxVlFyRThsdTdWcExVWTZyOGplRi80UzhJbHZrdFN3dlFsCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcFFJQkFBS0NBUUVBNm1ZZnhjUEdITzFpTm9wdk10SmpJaWF1ZldXV0UzR3dKWVE2bHJJR2RiamRhcDd3ClM1VEFMTTRzNzQ3d2tEb2NVVzE1eVpQb2JFdWl4SUJWQThKY3ByMVEzd1FMdGY3ZjdPaDd5SkJkNE1NUHRaMkQKb0UwMlFtR2NUT2lONHVEQi82RVZlcTZRVjJ5UHlVR0FMMjlnRzFzb0J2blUxSlBSRGxTYmZ4SnZreXVTYXFVOApKWkdCM2F1Qit2Sk1Da05HREQ3LzZJR2RFbEM2ZTUvNHAxZzg2bWlNVXFpdzJOQ3lhYkhRcmxYaERic3VOOW8vCnZVUElSUklNUURjMW9qYTF5am9zL2Jvdmtwd3lyQy8wQU1EekIzSXBrYkdZZVFTWnBDTmpwT2d4ekJIbXlBT2gKU09xVnpZdG5wdEN2Sjl6aVV6YzBHTUF6NnBOM0NrUDk0dWdoeHdJREFRQUJBb0lCQVFDT21UNXZFK0VzckFYNQo1Rkl0K3V3d1ZKUUcyWXhwbTlwcm1Id0VQWjNNZElEUFlvNFJqUmMwcXVHUGc4ZzZGZ0F3VVllcjZIMlhsSlFiCk0yK0U3L05weFBhMEZrUUJubU1nUDNjKzF3VWx2Y1dLMlo3QUlQa0hmVmFYTzB0R1lUSGtrRnorMjhBWVQ0VlMKRExVdEpuYXpiY3QySXZzbHNCK1l0a1E3RkQ0b3EwbEF3R05vVmtJc2gwUE93bWN6V09NaTBvVXZ3dFdvL29CegpuSWNnTEJPYjVVbG9SMHJJTEIwWjNPTjRIRU0zQ09ORW9aeXJaN21ENGtkVnNHK0dma1p4UmljdmYrTS96ZExvCldFUzdjT3RPV0pYbDI1empvRGtINU5nUUZSUHc0NTVSbmFJL3pNdUgvamRkNEZVemhBSkhJL3pMR1pORVQzQzgKajZScG1Db1JBb0dCQVBkVU9JaUlTL2RNVE9ib2pkQkJ2b1FjN0FHdDFYci84TEtIb0FTYzNvSVN4TzczV1VHLwpUeWVyME1HeXEvVVVhTXVHM2swbE5kcVVLY0FxdmwxdFN6K241RHEwZ1V0bDIzNTdMbXdhb1ZURmtrMEdOVmhSCmxuRi9QZ2ZVdmxFek04NlRTaWgvemNuZ3diYlhPZk1lOVBIOXVDQzVoWG5ScWpRamFhQ0xaa3J6QW9HQkFQS2QKMnhuYkI1b3c4Yzd6eWcvWm40clZOTkNnV21ZdmVUUlZYQXlxdUVWQU1OYjNyZnNhaWxzbWdEWGZ6ODhwWExJTApJKzJ1a0QyUnRBeVlNOC83WnlXbEgvN1BGeWE1QU5nQmhjU2tadGkwYkdaZlUyVndQNmNWZkpWTXRWQVFTU0t3CmtneHVRQ0RreHJjcXZjcktlWDBGU1FNcjdKOER5M21CTytEbHdGcmRBb0dCQUxkVTI0OEJFT1pmellWQURwYTMKbFFRUytESUthL3IvcXFoN2RmYlZYTzRvQVlodEd1RnNjTDBrVTlxd21WeFNZNWV5QWloSEU5TlJEbDJla1h0cApYMlR4QzNFa2ljNmMwd1cvUTFyb3BudlM4NjVha3NKRHYvT2pjUlNXOHZmM3IwaEp6NmVUakxRL0FQaUtNeTl1CjIveGdxTkxCRWhxSmV0T3BDRXZ6Nk1CWEFvR0FQaG5IeGxONUc2K2hoVzZEYnhFdU5EUWtvNjRYMVlZYlNSajgKU2NXOUN3VEdPNUFFT1h6dW95dzByeFdOdEtJS3R3d0E4MHEyWXZ3VGtSRzRXV2twV3Nwc2FTV0s4SDkwUnRZRQo3bk9DVzcrNjYyMUZCSGI1NUFPczh1NUNqcTdNZVpPbW5vWHQ1ajJJMjhPVjl2MWlvV3lqNXFyc2t6cytidWgwCmNqbDh4Z1VDZ1lFQXhNRTRtS3p6R0g3N0hRL24rMFFKenM2YlFhVElZUysrYk4xdktQOXFsck9VSnlqU2V1dEkKa3ZOMENsMXU1bzljajVodDNxeGR4VHFzWDdtdkxKMmdTenNpWlV3M2RGRTJxeHlzWU5FdzVoMkhFUmZpK1JILwpETE9OR0JSSnc5QVBad29rZFYwYVZSK1FJZWlnQVFoWG85Z3ZlNTJ1d3k3b0UvcndyOGEyZHl3PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=
+apiVersion: v1
+clusters:
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-6k2cf82-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-82bf5gt-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-9jhg6kt-72292.gcp-2.ci.openshift.org:6443
+  name: api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-9pzj2v2-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-9qgiwsb-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-fh5czyb-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-fmmvtlk-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-fmqxpw2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-ft7xjt2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-j4j68z2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-jpwh5kk-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-kb763mk-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-l5clm5b-76ef8.origin-ci-int-aws.dev.rhcloud.com:6443
+  name: api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-lvcq0m2-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-ql5gprb-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-sfi13qt-76ef8.aws-2.ci.openshift.org:6443
+  name: api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-sy1ntct-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-wx4wgsb-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ci-ln-xm5qndb-72292.origin-ci-int-gce.dev.rhcloud.com:6443
+  name: api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.hive4.psi.ospqa.com:6443
+  name: api-hive4-psi-ospqa-com:6443
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ve4140513914.psi.ospqa.com:6443
+  name: api-ve4140513914-psi-ospqa-com:6443
+- cluster:
+    certificate-authority: /home/anebhat/.minikube/ca.crt
+    extensions:
+    - extension:
+        last-update: Thu, 23 May 2024 11:31:34 IST
+        provider: minikube.sigs.k8s.io
+        version: v1.30.1
+      name: cluster_info
+    server: https://192.168.49.2:8443
+  name: minikube
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJRnhDVDhmRStnMmt3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBMk1qUXdPVFE1TkRKYUZ3MHpOREEyTWpJd09UVTBOREphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsZnMzRUU5YUs0NXNiVG8xb1lWeFhtWVFHNnhsM3JBTU1xYS9zbGo3bXNLaTZLRWRkN05uWlZtZmgKZTJnS0dOYm9OOENWOCtPTmZQVEUwQVF3aUREcHVZcmwyZUU2Q0djUVdoOHJJVUorTStqcSs5eXNlMDdocjhlOApCVlpJTWdkSHhyK1Mxclo1ZGlQcUpDTHNZK2RBYzFrRzBESDFyeHYyMzczc3B0VGdzTlF6VzMzMVVhYUVidyt4CjUyVkVXRFZTQVVURHRRRDlQQmNKU01SdFlITG1iUUpqOW01WWErS1RueG05dHNDSytZczlpVy82Z0pvYTMwRHYKUWw3V0MzeWlXU1FqZThNOXpSbTNKWGlEc2hPaU04d1NhRGZERm0rZTlVdi9WSVZIM1FKY1JxQ3h6MzVxZ1IxeQpxVzdCZWx4Z2ZYNGVKNno5aGNxa2VlQVZid2R2QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUR09rUUtZZTdnUjJHMi9ESkZiNXFXbGg0Zk1qQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQTVZbGI3M0pxeQpjZlJselhGam1BTXJMVTNkZkNiVHVDMUZpUnFNVllDcGZkSFd2Qk50QXdla2pZbm1xdkRhY05wbnJnRWRMTUJpCkNFS0V1MHNnVmdyUmowandhaFZuMmt1SEExUi8vcHNYQmwzeitTREU0dlJwN3ZNeVNwU0hkQUNVOUdnSFF0RC8KME50UWNzMmtNaVIyOGhhcmxOckgyRTRDVndjT0lGU0thdFdYWDNlT2sxaElYWlRWRitOdW9rd0NvVkViMUJGawpaNGh1elVKbVZFOUJoZXBsSGkvRmdUNzZla2U3R29Gb2szbC83ZlI3LzV5dHJmK2lXUmI5dFFocDdDeXd0WG5JCmsrdnhYOEZzaTc0cVN0QUlsQ3RzOEtHdkNWWkNkcStsN1kzd2ljOUFJcExDS3dMZkk4RThNQzRFWnBYN3d1em4KVDJiNEtPajcvbmFLCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://127.0.0.1:46193
+  name: kind-kind
+contexts:
+- context:
+    cluster: api-hive4-psi-ospqa-com:6443
+    user: user1/api-hive4-psi-ospqa-com:6443
+  name: /api-hive4-psi-ospqa-com:6443/user1
+- context:
+    cluster: api-ve4140513914-psi-ospqa-com:6443
+    user: user/api-ve4140513914-psi-ospqa-com:6443
+  name: /api-ve4140513914-psi-ospqa-com:6443/user
+- context:
+    cluster: api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+  name: default/api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443/kube:admin
+- context:
+    cluster: api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  name: default/api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+  name: default/api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: default
+    user: kube:admin/api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: default/api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-hive4-psi-ospqa-com:6443
+    namespace: default
+    user: kube:admin/api-hive4-psi-ospqa-com:6443
+  name: default/api-hive4-psi-ospqa-com:6443/kube:admin
+- context:
+    cluster: api-ve4140513914-psi-ospqa-com:6443
+    namespace: default
+    user: kube:admin/api-ve4140513914-psi-ospqa-com:6443
+  name: default/api-ve4140513914-psi-ospqa-com:6443/kube:admin
+- context:
+    cluster: minikube
+    user: minikube
+  name: minikube
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-2j6lx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-2j6lx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-2l2s4
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-2l2s4/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-44mh7
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-44mh7/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-48p8t
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-48p8t/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-4kvvf
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-4kvvf/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-55cbd
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-55cbd/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5cgz5
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5cgz5/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5h4mz
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5h4mz/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5jltc
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5jltc/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-5k6b6
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-5k6b6/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-62l4p
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-62l4p/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-6h9mg
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-6h9mg/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-6jf2s
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-6jf2s/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-78g29
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-78g29/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-98zkz
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-98zkz/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-997r5
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-997r5/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-b6g9r
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-b6g9r/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-b8v4h
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-b8v4h/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-bjnsf
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-bjnsf/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-bkbmg
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-bkbmg/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-blwfv
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-blwfv/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-cdkgt
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-cdkgt/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-cfx5s
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-cfx5s/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-dc4kr
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-dc4kr/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-dr74m
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-dr74m/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-ds8nw
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-ds8nw/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-fhsd6
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-fhsd6/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-gxnkj
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-gxnkj/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-hjxhj
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-hjxhj/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-hmjcc
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-hmjcc/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-hpzw8
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-hpzw8/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-j5wwm
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-j5wwm/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-lc7sx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-lc7sx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-lc8r4
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-lc8r4/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-lpv2z
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-lpv2z/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-mncvp
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-mncvp/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-qcxtg
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-qcxtg/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rj5wj
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rj5wj/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rphjz
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rphjz/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rrvp2
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rrvp2/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-rtgdd
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-rtgdd/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-smbjd
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-smbjd/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-sndtw
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-sndtw/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-st9dm
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-st9dm/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-t7qz7
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-t7qz7/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-t8pgx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-t8pgx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-thzh2
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-thzh2/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-tnzx2
+    user: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-tnzx2/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-w7f5p
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-w7f5p/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wcmlv
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wcmlv/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wqqxx
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wqqxx/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wtqj6
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wtqj6/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+    namespace: releasetest-wxcrb
+    user: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  name: releasetest-wxcrb/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443/kube:admin
+- context:
+    cluster: kind-kind
+    user: kind-kind
+  name: kind-kind
+current-context: kind-kind
+kind: Config
+preferences: {}
+users:
+- name: kube:admin/api-ci-ln-6k2cf82-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~__ovpnXwPQokUhXfW7Z-6tPakPOmdeN4Nv009K3dcMg
+- name: kube:admin/api-ci-ln-82bf5gt-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~kaMVor8YUSJH8ikKgB8_XdmtpgQ1RRB-BLlscoV4NHs
+- name: kube:admin/api-ci-ln-9jhg6kt-72292-gcp-2-ci-openshift-org:6443
+  user:
+    token: sha256~mZ5VsUnzjmuqjMYN46BiFlk84Bqxsj4DpXxbadB5rm4
+- name: kube:admin/api-ci-ln-9pzj2v2-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user:
+    token: sha256~XV7uf9qG_UH2Y80DiaSZLBxh0W1Lmg_Vr74ZoEz234s
+- name: kube:admin/api-ci-ln-9qgiwsb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user:
+    token: sha256~8qXTxv-PoLWk_ZfNAuQ0jEPwUTfUt_2AHeHgOVeqRSc
+- name: kube:admin/api-ci-ln-fh5czyb-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user: {}
+- name: kube:admin/api-ci-ln-fmmvtlk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~8hC3_rUvCyRW3YpwJFztTnIgj-oxojg0LWlz9dPx9QI
+- name: kube:admin/api-ci-ln-fmqxpw2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~ptXdec-jr9jPB9vxOrt_2ZJGp2d1oS8SgUaMMe4wpsQ
+- name: kube:admin/api-ci-ln-ft7xjt2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~EMCTAGMew2rMm71VY5Ef3EnrlxonMatK_eOo5RtXOUw
+- name: kube:admin/api-ci-ln-j4j68z2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~0fZpFN3YxXe1VcnELArJiqZhiy4R1F1O-M7wBL8I1DM
+- name: kube:admin/api-ci-ln-jpwh5kk-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user:
+    token: sha256~Ukac8w9AGJrmfDmtL0Nz83jD9wnYnTKTOb1-EDDlUWc
+- name: kube:admin/api-ci-ln-kb763mk-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~6p3O3BjONmp40hs_ilLq_XVVGtqe_xpKGKDFeGuK9cc
+- name: kube:admin/api-ci-ln-l5clm5b-76ef8-origin-ci-int-aws-dev-rhcloud-com:6443
+  user: {}
+- name: kube:admin/api-ci-ln-lvcq0m2-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~fpE1M7rbA14W8PfRyPgb2DmLsfiprwOjvGcedR94tzQ
+- name: kube:admin/api-ci-ln-ql5gprb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~0LpaDU2IAIrS61ZeK5H-yKro0KePK6myaX2IwxdxbjY
+- name: kube:admin/api-ci-ln-sfi13qt-76ef8-aws-2-ci-openshift-org:6443
+  user:
+    token: sha256~bOHC67RBHipw6bruCw8yFK5iiZBE5r4nvxAlvqP-oB0
+- name: kube:admin/api-ci-ln-sy1ntct-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~6R5Daf2VU80rh4xiSxCjAgZf0ezeOxkH3XIgkmIBcyo
+- name: kube:admin/api-ci-ln-wx4wgsb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~fhxwl2gh6DfTbwkr3fY-iYwg0uj2kFv1Ra0_i5MSKFM
+- name: kube:admin/api-ci-ln-xm5qndb-72292-origin-ci-int-gce-dev-rhcloud-com:6443
+  user:
+    token: sha256~LRv_AyJzTlWXXUkJwO0HXyHW04h4nnPOSu8trg9IBWw
+- name: kube:admin/api-hive4-psi-ospqa-com:6443
+  user:
+    token: sha256~KJ2svWx74i8LsB3nSddiZ5svuh5s9W_z8FXqtasUCBE
+- name: kube:admin/api-ve4140513914-psi-ospqa-com:6443
+  user:
+    token: sha256~EPtCeK0uxXEIBKMHufI0OiKhlNfr0Ni4yE2HfHRoIF0
+- name: minikube
+  user:
+    client-certificate: /home/anebhat/.minikube/profiles/minikube/client.crt
+    client-key: /home/anebhat/.minikube/profiles/minikube/client.key
+- name: user/api-ve4140513914-psi-ospqa-com:6443
+  user:
+    token: sha256~gyZ-zrP8ccEQzOZM1jkqpBBS4QXQE8A0pev9X-ujRr0
+- name: user1/api-hive4-psi-ospqa-com:6443
+  user:
+    token: sha256~t97eTgPVZr9zdr9s62nKGRZJhw9FnRRPw8QpF8fXiZI
+- name: kind-kind
+  user:
+    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJR25PMDBnb2QyZFF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBMk1qUXdPVFE1TkRKYUZ3MHlOVEEyTWpRd09UVTBORFJhTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEcVpoL0YKdzhZYzdXSTJpbTh5MG1NaUpxNTlaWllUY2JBbGhEcVdzZ1oxdU4xcW52QkxsTUFzeml6dmp2Q1FPaHhSYlhuSgprK2hzUzZMRWdGVUR3bHltdlZEZkJBdTEvdC9zNkh2SWtGM2d3dysxbllPZ1RUWkNZWnhNNkkzaTRNSC9vUlY2CnJwQlhiSS9KUVlBdmIyQWJXeWdHK2RUVWs5RU9WSnQvRW0rVEs1SnFwVHdsa1lIZHE0SDY4a3dLUTBZTVB2L28KZ1owU1VMcDduL2luV0R6cWFJeFNxTERZMExKcHNkQ3VWZUVOdXk0MzJqKzlROGhGRWd4QU56V2lOclhLT2l6OQp1aStTbkRLc0wvUUF3UE1IY2ltUnNaaDVCSm1rSTJPazZESE1FZWJJQTZGSTZwWE5pMmVtMEs4bjNPSlROelFZCndEUHFrM2NLUS8zaTZDSEhBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRk1ZNlJBcGg3dUJIWWJiOApNa1Z2bXBhV0hoOHlNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUNZNFVNSUw2TGNkNkFiYS9LNUpaNU9ML2NoCnBQcy8rNUh3SHh2VzRTQ0hrWTU3UEkyR2wxajIxZFpLNVJoTSsrbmJMMG1mV3NlQzJNQUhIazF2V1hPWDZadU0KYXBvdklCNDhwYkxXMnFTYysvNTdPWXhEU1VWZ0FXMmI0N3cvR0dKa0s3cjdDTUpmeXF5eURxWjZjNmlGc0hjSAowQUgrRHZwd2hCY2JNSFlEbFE3S1hqeVZFMmNwV1VWTm5QbW9WanpHejZHdURYSzFTY1lrSVFzaklwcXlrSm5DClk4KzBwM1FCcHNFU0FiYk54S3ZPdVdVbXNPK3pHM0hGOCtLWXZ5T1JhUUphemYxTU03QzYwVVBQSUpDUEJYTTUKSzdQcjJpVytlNjVYa0V2U2lVcThYSEU0ZkwxVlFyRThsdTdWcExVWTZyOGplRi80UzhJbHZrdFN3dlFsCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcFFJQkFBS0NBUUVBNm1ZZnhjUEdITzFpTm9wdk10SmpJaWF1ZldXV0UzR3dKWVE2bHJJR2RiamRhcDd3ClM1VEFMTTRzNzQ3d2tEb2NVVzE1eVpQb2JFdWl4SUJWQThKY3ByMVEzd1FMdGY3ZjdPaDd5SkJkNE1NUHRaMkQKb0UwMlFtR2NUT2lONHVEQi82RVZlcTZRVjJ5UHlVR0FMMjlnRzFzb0J2blUxSlBSRGxTYmZ4SnZreXVTYXFVOApKWkdCM2F1Qit2Sk1Da05HREQ3LzZJR2RFbEM2ZTUvNHAxZzg2bWlNVXFpdzJOQ3lhYkhRcmxYaERic3VOOW8vCnZVUElSUklNUURjMW9qYTF5am9zL2Jvdmtwd3lyQy8wQU1EekIzSXBrYkdZZVFTWnBDTmpwT2d4ekJIbXlBT2gKU09xVnpZdG5wdEN2Sjl6aVV6YzBHTUF6NnBOM0NrUDk0dWdoeHdJREFRQUJBb0lCQVFDT21UNXZFK0VzckFYNQo1Rkl0K3V3d1ZKUUcyWXhwbTlwcm1Id0VQWjNNZElEUFlvNFJqUmMwcXVHUGc4ZzZGZ0F3VVllcjZIMlhsSlFiCk0yK0U3L05weFBhMEZrUUJubU1nUDNjKzF3VWx2Y1dLMlo3QUlQa0hmVmFYTzB0R1lUSGtrRnorMjhBWVQ0VlMKRExVdEpuYXpiY3QySXZzbHNCK1l0a1E3RkQ0b3EwbEF3R05vVmtJc2gwUE93bWN6V09NaTBvVXZ3dFdvL29CegpuSWNnTEJPYjVVbG9SMHJJTEIwWjNPTjRIRU0zQ09ORW9aeXJaN21ENGtkVnNHK0dma1p4UmljdmYrTS96ZExvCldFUzdjT3RPV0pYbDI1empvRGtINU5nUUZSUHc0NTVSbmFJL3pNdUgvamRkNEZVemhBSkhJL3pMR1pORVQzQzgKajZScG1Db1JBb0dCQVBkVU9JaUlTL2RNVE9ib2pkQkJ2b1FjN0FHdDFYci84TEtIb0FTYzNvSVN4TzczV1VHLwpUeWVyME1HeXEvVVVhTXVHM2swbE5kcVVLY0FxdmwxdFN6K241RHEwZ1V0bDIzNTdMbXdhb1ZURmtrMEdOVmhSCmxuRi9QZ2ZVdmxFek04NlRTaWgvemNuZ3diYlhPZk1lOVBIOXVDQzVoWG5ScWpRamFhQ0xaa3J6QW9HQkFQS2QKMnhuYkI1b3c4Yzd6eWcvWm40clZOTkNnV21ZdmVUUlZYQXlxdUVWQU1OYjNyZnNhaWxzbWdEWGZ6ODhwWExJTApJKzJ1a0QyUnRBeVlNOC83WnlXbEgvN1BGeWE1QU5nQmhjU2tadGkwYkdaZlUyVndQNmNWZkpWTXRWQVFTU0t3CmtneHVRQ0RreHJjcXZjcktlWDBGU1FNcjdKOER5M21CTytEbHdGcmRBb0dCQUxkVTI0OEJFT1pmellWQURwYTMKbFFRUytESUthL3IvcXFoN2RmYlZYTzRvQVlodEd1RnNjTDBrVTlxd21WeFNZNWV5QWloSEU5TlJEbDJla1h0cApYMlR4QzNFa2ljNmMwd1cvUTFyb3BudlM4NjVha3NKRHYvT2pjUlNXOHZmM3IwaEp6NmVUakxRL0FQaUtNeTl1CjIveGdxTkxCRWhxSmV0T3BDRXZ6Nk1CWEFvR0FQaG5IeGxONUc2K2hoVzZEYnhFdU5EUWtvNjRYMVlZYlNSajgKU2NXOUN3VEdPNUFFT1h6dW95dzByeFdOdEtJS3R3d0E4MHEyWXZ3VGtSRzRXV2twV3Nwc2FTV0s4SDkwUnRZRQo3bk9DVzcrNjYyMUZCSGI1NUFPczh1NUNqcTdNZVpPbW5vWHQ1ajJJMjhPVjl2MWlvV3lqNXFyc2t6cytidWgwCmNqbDh4Z1VDZ1lFQXhNRTRtS3p6R0g3N0hRL24rMFFKenM2YlFhVElZUysrYk4xdktQOXFsck9VSnlqU2V1dEkKa3ZOMENsMXU1bzljajVodDNxeGR4VHFzWDdtdkxKMmdTenNpWlV3M2RGRTJxeHlzWU5FdzVoMkhFUmZpK1JILwpETE9OR0JSSnc5QVBad29rZFYwYVZSK1FJZWlnQVFoWG85Z3ZlNTJ1d3k3b0UvcndyOGEyZHl3PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=
